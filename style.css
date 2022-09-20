@@ -6,6 +6,18 @@
     padding: 0;
 }
 
+.body {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.4;
+    letter-spacing: 0.07em;
+    color: rgb(49, 49, 49);
+    background: rgb(173, 173, 173);
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
 h2 {
     padding: 10px 0;
     font-size: 1.3rem;
@@ -13,11 +25,11 @@ h2 {
 
 h3 {
     font-size: 1rem;
+    margin-top: 15px;
 }
 
 p {
-    padding-bottom: 10px;
-    text-align: justify;
+    padding-bottom: 10px;    
 }
 
 a {
@@ -28,24 +40,17 @@ ul {
     padding-left: 20px;
 }
 
-.body {
-    font-family: 'Lato', sans-serif;
-    line-height: 1.4;
-    letter-spacing: 0.07em;
-    background: rgb(173, 173, 173);
-}
-
 .wrapper {
     width: 1000px;
     margin: 10px auto 100px;
-    border: 1px solid rgb(31, 31, 43);
+    border: 1px solid rgb(17, 30, 43);
 }
 
 .header {
     width: 100%;
     height: 333px;
     display: flex;
-    border-bottom: 1px solid rgb(31, 31, 43);
+    border-bottom: 1px solid rgb(17, 30, 43);
 }
 
 .header-img {
@@ -57,7 +62,7 @@ ul {
 
 .header-title {
     width: 60%;
-    background: rgb(31, 31, 43);
+    background: rgb(17, 30, 43);
     color: white;
 }
 
@@ -89,4 +94,17 @@ ul {
 .stack-1, .stack-2 {
     width: 50%;
     
+}
+
+.contacts-item {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+svg {
+   fill: rgb(49, 49, 49);
+}
+
+.contacts-item > a {
+    padding-left: 10px;    
 }
